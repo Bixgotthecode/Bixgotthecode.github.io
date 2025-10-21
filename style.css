@@ -213,6 +213,12 @@ section {
   height: 2rem;
 }
 
+/* Font Awesome icons */
+.fa-solid {
+  font-size: 2rem;
+  color: rgb(53, 53, 53);
+}
+
 /* BUTTONS */
 
 .btn-container {
