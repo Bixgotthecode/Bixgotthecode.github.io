@@ -34,9 +34,10 @@ nav,
 }
 
 nav {
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 17vh;
+  padding: 0 2rem;
 }
 
 .nav-links {
