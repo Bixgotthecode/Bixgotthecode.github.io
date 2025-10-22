@@ -59,7 +59,7 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 .logo:hover {
@@ -171,8 +171,8 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
+  height: 480px;
+  width: 480px;
   margin: auto 0;
 }
 
@@ -195,7 +195,7 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
@@ -210,7 +210,7 @@ section {
 
 .icon {
   cursor: pointer;
-  height: 2rem;
+  height: 2.4rem;
 }
 
 /* Font Awesome icons */
@@ -293,11 +293,6 @@ section {
   border-radius: 2rem;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
 
 .details-container {
   padding: 1.5rem;
@@ -315,8 +310,8 @@ section {
 }
 
 .section__pic-container {
-  height: 400px;
-  width: 400px;
+  height: 480px;
+  width: 480px;
   margin: auto 0;
 }
 
