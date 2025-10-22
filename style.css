@@ -177,42 +177,10 @@ section {
 }
 
 .section__pic-container {
-  position: relative;
-  display: inline-block;
-  border-radius: 2rem;
-  overflow: visible;
+  display: flex;
   height: 600px;
   width: 600px;
   margin: auto 0;
-}
-
-/* Decorative corner accents for profile image */
-
-/* Curved line top-left */
-.section__pic-container::before,
-.section__pic-container::after {
-  content: "";
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  border: 3px solid rgb(53, 53, 53);
-  border-radius: 2rem;
-}
-
-/* Top-left accent */
-.section__pic-container::before {
-  top: -15px;
-  left: -15px;
-  border-right: none;
-  border-bottom: none;
-}
-
-/* Bottom-right accent */
-.section__pic-container::after {
-  bottom: -15px;
-  right: -15px;
-  border-top: none;
-  border-left: none;
 }
 
 .section__text {
@@ -373,10 +341,6 @@ section {
 }
 
 .section__pic-container {
-  position: relative;
-  display: inline-block;
-  border-radius: 2rem;
-  overflow: visible;
   height: 600px;
   width: 600px;
   margin: auto 0;
