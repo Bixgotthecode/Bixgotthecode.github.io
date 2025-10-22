@@ -169,15 +169,17 @@ section {
 
 #profile {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 5rem;
   min-height: 70vh;
+  padding-left: 6rem;
+  align-items: center;
 }
 
 .section__pic-container {
   display: flex;
-  height: 480px;
-  width: 480px;
+  height: 600px;
+  width: 600px;
   margin: auto 0;
 }
 
@@ -339,8 +341,8 @@ section {
 }
 
 .section__pic-container {
-  height: 480px;
-  width: 480px;
+  height: 600px;
+  width: 600px;
   margin: auto 0;
 }
 
