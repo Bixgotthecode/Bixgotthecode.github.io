@@ -34,10 +34,9 @@ nav,
 }
 
 nav {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 17vh;
-  padding: 0 2rem;
 }
 
 .nav-links {
@@ -151,10 +150,10 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  padding-bottom: 4vh;
+  min-height: fit-content;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
 }
 
 .section-container {
@@ -167,7 +166,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  min-height: 70vh;
 }
 
 .section__pic-container {
